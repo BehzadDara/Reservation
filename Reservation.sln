@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.Domain", "Reser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.Infrastructure", "Reservation.Infrastructure\Reservation.Infrastructure.csproj", "{D6687DFF-AA65-4C7E-BF70-3D58D68E32F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.Test", "Reservation.Test\Reservation.Test.csproj", "{6B720BCD-96DC-4121-A98F-FE21FF505A72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{D6687DFF-AA65-4C7E-BF70-3D58D68E32F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6687DFF-AA65-4C7E-BF70-3D58D68E32F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6687DFF-AA65-4C7E-BF70-3D58D68E32F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B720BCD-96DC-4121-A98F-FE21FF505A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B720BCD-96DC-4121-A98F-FE21FF505A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B720BCD-96DC-4121-A98F-FE21FF505A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B720BCD-96DC-4121-A98F-FE21FF505A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
