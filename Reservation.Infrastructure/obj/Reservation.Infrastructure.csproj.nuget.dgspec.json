@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Infrastructure\\Reservation.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Domain\\Reservation.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Domain\\Reservation.Domain.csproj",
+        "projectName": "Reservation.Domain",
+        "projectPath": "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Domain\\Reservation.Domain.csproj",
+        "packagesPath": "C:\\Users\\Behzad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Behzad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.sarmadins.ir/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2021.1.0-eap01, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Infrastructure\\Reservation.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Infrastructure\\Reservation.Infrastructure.csproj",
+        "projectName": "Reservation.Infrastructure",
+        "projectPath": "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Infrastructure\\Reservation.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Behzad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Behzad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.sarmadins.ir/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Domain\\Reservation.Domain.csproj": {
+                "projectPath": "C:\\Users\\Behzad\\Desktop\\Reservation\\Reservation.Domain\\Reservation.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

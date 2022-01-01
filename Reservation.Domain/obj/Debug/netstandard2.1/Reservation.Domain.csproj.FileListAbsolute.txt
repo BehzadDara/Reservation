@@ -1,0 +1,9 @@
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\bin\Debug\netstandard2.1\Reservation.Domain.deps.json
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\bin\Debug\netstandard2.1\Reservation.Domain.dll
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\bin\Debug\netstandard2.1\Reservation.Domain.pdb
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\obj\Debug\netstandard2.1\Reservation.Domain.csprojAssemblyReference.cache
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\obj\Debug\netstandard2.1\Reservation.Domain.AssemblyInfoInputs.cache
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\obj\Debug\netstandard2.1\Reservation.Domain.AssemblyInfo.cs
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\obj\Debug\netstandard2.1\Reservation.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\obj\Debug\netstandard2.1\Reservation.Domain.dll
+C:\Users\Behzad\Desktop\Reservation\Reservation.Domain\obj\Debug\netstandard2.1\Reservation.Domain.pdb

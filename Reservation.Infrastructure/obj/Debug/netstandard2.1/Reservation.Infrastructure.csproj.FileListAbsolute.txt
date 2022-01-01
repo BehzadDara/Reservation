@@ -1,0 +1,12 @@
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\bin\Debug\netstandard2.1\Reservation.Infrastructure.deps.json
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\bin\Debug\netstandard2.1\Reservation.Infrastructure.dll
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\bin\Debug\netstandard2.1\Reservation.Infrastructure.pdb
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\bin\Debug\netstandard2.1\Reservation.Domain.dll
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\bin\Debug\netstandard2.1\Reservation.Domain.pdb
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\obj\Debug\netstandard2.1\Reservation.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\obj\Debug\netstandard2.1\Reservation.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\obj\Debug\netstandard2.1\Reservation.Infrastructure.AssemblyInfo.cs
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\obj\Debug\netstandard2.1\Reservation.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\obj\Debug\netstandard2.1\Reservation.Infrastructure.csproj.CopyComplete
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\obj\Debug\netstandard2.1\Reservation.Infrastructure.dll
+C:\Users\Behzad\Desktop\Reservation\Reservation.Infrastructure\obj\Debug\netstandard2.1\Reservation.Infrastructure.pdb
