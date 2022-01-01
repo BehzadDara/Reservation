@@ -51,7 +51,7 @@ namespace Reservation.Application.Services
         public async Task<IActionResult> GetHourCapacities()
         {
             var myHourCapacities = await _unitOfWork.HourCapacityRepository.ListAllAsync();
-            var myHourCapacitiesOrdered = myHourCapacities.OrderBy(x => x.Hour).ThenBy(x => x.WeekDay);
+            var myHourCapacitiesOrdered = myHourCapacities.OrderBy(x => x.WeekDay).ThenBy(x => x.Hour);
             return Ok(_mapper.Map<IList<HourCapacityDto>>(myHourCapacitiesOrdered));
         }
         

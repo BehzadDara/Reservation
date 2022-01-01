@@ -68,20 +68,20 @@ namespace Reservation.Application.Services
         public async Task<IActionResult> GetMeetingsByUsername(string username)
         {
             var myMeetings = await _unitOfWork.MeetingRepository.ListAsync(new GetMeetingsByUsername(username));
-            var myMeetingsOrdered = myMeetings.OrderBy(x => x.Time)
-                .ThenBy(x => x.Day)
+            var myMeetingsOrdered = myMeetings.OrderBy(x => x.Year)
                 .ThenBy(x => x.Month)
-                .ThenBy(x => x.Year);
+                .ThenBy(x => x.Day)
+                .ThenBy(x => x.Time);
             return Ok(_mapper.Map<IList<MeetingDto>>(myMeetingsOrdered));
         }
         [HttpGet("Meetings")]
         public async Task<IActionResult> GetMeetings()
         {
             var myMeetings = await _unitOfWork.MeetingRepository.ListAsync(new GetMeetings());
-            var myMeetingsOrdered = myMeetings.OrderBy(x => x.Time)
-                .ThenBy(x => x.Day)
+            var myMeetingsOrdered = myMeetings.OrderBy(x => x.Year)
                 .ThenBy(x => x.Month)
-                .ThenBy(x => x.Year);
+                .ThenBy(x => x.Day)
+                .ThenBy(x => x.Time);
             return Ok(_mapper.Map<IList<MeetingDto>>(myMeetingsOrdered));
         }
         
